@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <title>Contact Us</title>
 </head>
+  <link rel="stylesheet" href="styles/styles.css">
 <body>
+  <div class="row">
   <header>
-    <!--Logo(made it smaller for now) and Nav-->
-    <h1>Contact Us</h1>
-    <img src="images/logo.jpg" height=100 alt="logo">
+    <!--Logo and Nav-->
+    <img class="logo" src="images/logo.jpg" alt="logo">
     <nav>
       <ul>
         <li><a href="">About</a></li>
@@ -18,22 +19,25 @@
       </ul>
     </nav>
   </header>
-  
-  <article>
+  </div>
+  <div class="row">
     <!--Map(made it smaller for now), Directions, and Contact informtation-->
     <p>We are located at 528 Nock Point Ln Tacoma, WA 98412. You can call us at (253)555-1010 or email us at <b>archery-education@example.com</b></p>
-    <img src="images/map.png" height="200" alt="map of location">
-    <p>If you are coming from the North, you can take I-5 S to Stadium Way exit. From there follow South Stadium Way to Tacoma Ave South.</p> 
-    <p>If you are coming up from the South you can take I-5 N, take the Stadium Way exit to Stadium Way South. Then follow that to Tacoma Ave South.</p>
-  </article>
+    <div class="span_1_of_3"><img class="map" src="images/map.png" alt="map of location"></div>
+    <div class="span_1_of_3"><p>If you are coming from the North, you can take I-5 S to Stadium Way exit. From there follow South Stadium Way to Tacoma Ave South.</p></div> 
+    <div class="span_1_of_3"><p>If you are coming up from the South you can take I-5 N, take the Stadium Way exit to Stadium Way South. Then follow that to Tacoma Ave South.</p></div>
+  </div>  
   
-  <footer>
+  <div class="row">
+    <footer>
     <!--Contact Information-->
     <address>
       <br>528 Nock Point Ln Tacoma, WA 98412
       <br>archery-education@example.com
       <br>(253)555-1010</address>
-  </footer>
-  
+    </footer>
+  </div>
+  <div class="triangle-bottomleft"></div>
+  <div class="triangle-bottomright"></div>
 </body>
 </html>
