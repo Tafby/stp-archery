@@ -1,81 +1,27 @@
-body {font-family: 'Pontano Sans', sans-serif;
-margin: 0;}
+* {margin: 1rem;
+   padding: 0.25rem;}
 
-.classes {margin: 1rem;
-   padding: .50rem;}
+li {font-family: 'Pontano Sans', sans-serif;
+   display: inline-block;
+   background-color: #95C64A;
+   text-align: center;}
 
 
-li { display: inline-block;
-  background-color: #95C64A;
-  padding: 1rem;
-  margin: 1.5rem;}
 
-a { text-decoration: none;}
-
-ul { text-align: center;}
+h3 {font-size: 18pt;}
+h4 {font-size: 14pt;}
 
 article, h1 {font-family: 'Pontano Sans', sans-serif;}
 
-h3 {font-size: 18pt;}
+a {text-decoration: none;
+  font-family: 'Pontano Sans', sans-serif;}
 
-h4 {font-size: 14pt;}
+ul {text-align: center;
+   padding: 0rem;
+   font-family: 'Pontano Sans', sans-serif;}
 
-.map { width: 100%}
-
-
-footer { text-align:center;}
-
-
-.logo { float:left;
-  height: 6rem;}
-
-.row { width: 90%;
-  margin: auto;
-  padding: 0;}
+footer {text-align:center;
+       font-family: 'Pontano Sans', sans-serif;}
 
 
 
-div.row:after { content: ""; 
-  display: table; 
-  clear: both;}
-
-div[class^='span'] {
-  float: left;
-  padding-right: 1rem;
-  margin: 0;}
-
-div[class^='span']:last-child {
-  padding-right: 0;}
-
-/*  GRID OF THREE   ============================================================================= */
-
-	
-.span_3_of_3 {
-	width: 100%;}
-
-.span_2_of_3 {
-	width: 66.13%;}
-
-.span_1_of_3 {
-	width: 32.26%;}
-
-
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.span_3_of_3 {
-		width: 100%;}
-  
-	.span_2_of_3 {
-		width: 100%;}
-  
-	.span_1_of_3 {
-		width: 100%;}
-}
-
-
-
-:after {content: ""; display: table; 
-  clear: both;}
-/* clearfix hack to keep parent from collapsing when all children float*/
