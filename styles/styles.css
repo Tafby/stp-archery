@@ -2,12 +2,12 @@ body {margin: 2rem;
   padding: 0.25rem;}
 
 li {
-font-family: 'Pontano Sans', sans-serif;
-display: inline-block;
-background-color: #95C64A;
-text-align: center;
-margin: .50rem;
-padding: .25rem;}
+  font-family: 'Pontano Sans', sans-serif;
+  display: inline-block;
+  background-color: #95C64A;
+  text-align: center;
+  margin: .50rem;
+  padding: .25rem;}
 
 p {font-family: 'Pontano Sans', sans-serif;}
 
@@ -31,5 +31,5 @@ ul {text-align: center;
 }
 
 footer {text-align:center;
-       font-family: 'Pontano Sans', sans-serif;}
+    font-family: 'Pontano Sans', sans-serif;}
 
