@@ -19,7 +19,8 @@ h4 {font-size: 14pt;}
 article, h1 {font-family: 'Pontano Sans', sans-serif;}
 
 a {text-decoration: none;
-  font-family: 'Pontano Sans', sans-serif;}
+  font-family: 'Pontano Sans', sans-serif;
+  color: hsla(23, 41%, 16%, 1);}
 
 ul {text-align: center;
    padding: 0rem;
