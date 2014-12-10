@@ -1,0 +1,44 @@
+* {
+   padding: 0.25rem;}
+
+li {font-family: 'Pontano Sans', sans-serif;
+   display: inline-block;
+   background-color: #95C64A;
+   text-align: center;}
+
+.logo { float:left;
+  height: 6rem;}
+
+h3 {font-size: 18pt;}
+h4 {font-size: 14pt;}
+
+article, h1 {font-family: 'Pontano Sans', sans-serif;}
+
+a {text-decoration: none;
+  font-family: 'Pontano Sans', sans-serif;}
+
+ul {text-align: center;
+   padding: 0rem;
+   font-family: 'Pontano Sans', sans-serif;}
+
+footer {text-align:center;
+       font-family: 'Pontano Sans', sans-serif;}
+
+.triangle-bottomleft {
+	 width: 0;
+	 height: 0;
+	 border-bottom: 100px solid #95C64A;
+	 border-right: 100px solid transparent;
+  position: fixed; left: 0; bottom: 0;}
+
+.triangle-bottomright {
+	 width: 0;
+	 height: 0;
+	 border-bottom: 100px solid #95C64A;
+	 border-left: 100px solid transparent;
+  position: fixed; right: 0; bottom: 0;}
+
+
+:after {content: ""; display: table; 
+  clear: both;}
+/* clearfix hack to keep parent from collapsing when all children float*/

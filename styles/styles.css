@@ -1,88 +1,78 @@
+body {font-family: 'Pontano Sans', sans-serif;
+margin: 0;}
+
+.classes {margin: 1rem;
+   padding: .50rem;}
+
+
 li { display: inline-block;
-background-color: #95C64A;
-padding: 1rem;
-margin: 1.5rem;}
+  background-color: #95C64A;
+  padding: 1rem;
+  margin: 1.5rem;}
 
 a { text-decoration: none;}
 
-ul { text-align: center;
-padding: 0rem;}
+ul { text-align: center;}
 
-.map {width: 100%}
+article, h1 {font-family: 'Pontano Sans', sans-serif;}
+
+h3 {font-size: 18pt;}
+
+h4 {font-size: 14pt;}
+
+.map { width: 100%}
 
 
 footer { text-align:center;}
 
 
 .logo { float:left;
-height: 6rem;}
+  height: 6rem;}
 
-.row {
-  width: 90%;
+.row { width: 90%;
   margin: auto;
-  padding: 0;
-}
+  padding: 0;}
 
-div.row:after {content: ""; display: table; 
+
+
+div.row:after { content: ""; 
+  display: table; 
   clear: both;}
 
 div[class^='span'] {
   float: left;
   padding-right: 1rem;
-  margin: 0;
-}
+  margin: 0;}
 
-div[class^='span']:last-child {padding-right: 0;}
+div[class^='span']:last-child {
+  padding-right: 0;}
 
 /*  GRID OF THREE   ============================================================================= */
 
 	
 .span_3_of_3 {
-	width: 100%;
-}
+	width: 100%;}
 
 .span_2_of_3 {
-	width: 66.13%;
-}
+	width: 66.13%;}
 
 .span_1_of_3 {
-	width: 32.26%;
-}
+	width: 32.26%;}
+
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
 	.span_3_of_3 {
-		width: 100%; 
-	}
+		width: 100%;}
+  
 	.span_2_of_3 {
-		width: 100%; 
-	}
+		width: 100%;}
+  
 	.span_1_of_3 {
-		width: 100%;
-	}
+		width: 100%;}
 }
-
-.triangle-bottomleft {
-	 width: 0;
-	 height: 0;
-	 border-bottom: 100px solid #95C64A;
-	 border-right: 100px solid transparent;
-  position: absolute; left: 0; bottom: 0;
-}
-
-.triangle-bottomright {
-	 width: 0;
-	 height: 0;
-	 border-bottom: 100px solid #95C64A;
-	 border-left: 100px solid transparent;
-  position: absolute; right: 0; bottom: 0;
-}
-
-
-
-
 
 
 
