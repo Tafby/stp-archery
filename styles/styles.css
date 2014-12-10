@@ -1,12 +1,13 @@
 body {margin: 1rem;
   padding: 0.25rem;}
 
-li {font-family: 'Pontano Sans', sans-serif;
-  display: inline-block;
-  background-color: #95C64A;
-  text-align: center;
-  margin: 1rem;
-  padding 0.25rem;}
+li {
+font-family: 'Pontano Sans', sans-serif;
+display: inline-block;
+background-color: #95C64A;
+text-align: center;
+margin: 2rem;
+padding: .25rem;}
 
 p {font-family: 'Pontano Sans', sans-serif;}
 
@@ -25,8 +26,9 @@ a {text-decoration: none;
   color: hsla(23, 41%, 16%, 1);}
 
 ul {text-align: center;
-   padding: 0rem;
-   font-family: 'Pontano Sans', sans-serif;}
+   padding: 1rem;
+   font-family: 'Pontano Sans', sans-serif;
+}
 
 footer {text-align:center;
        font-family: 'Pontano Sans', sans-serif;}
