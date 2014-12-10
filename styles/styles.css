@@ -1,17 +1,19 @@
-* {margin: 1rem;
-   padding: 0.25rem;}
+body {margin: 1rem;
+  padding: 0.25rem;}
 
 li {font-family: 'Pontano Sans', sans-serif;
-   display: inline-block;
-   background-color: #95C64A;
-   text-align: center;}
+  display: inline-block;
+  background-color: #95C64A;
+  text-align: center;
+  margin: 1rem;
+  padding 0.25rem;}
 
 p {font-family: 'Pontano Sans', sans-serif;}
 
 nav {font-size: 20pt;
-    margin-top: -127px;
-    margin-left: 400px;
-    position: absolute;}
+  margin-top: -127px;
+  margin-left: 400px;
+  position: absolute;}
 
 h3 {font-size: 18pt;}
 h4 {font-size: 14pt;}
