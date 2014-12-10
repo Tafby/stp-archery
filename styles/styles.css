@@ -6,7 +6,10 @@ li {font-family: 'Pontano Sans', sans-serif;
    background-color: #95C64A;
    text-align: center;}
 
-
+nav {font-size: 20pt;
+    margin-top: -210px;
+    margin-left: 400px;
+    position: absolute;}
 
 h3 {font-size: 18pt;}
 h4 {font-size: 14pt;}
@@ -22,6 +25,4 @@ ul {text-align: center;
 
 footer {text-align:center;
        font-family: 'Pontano Sans', sans-serif;}
-
-
 
