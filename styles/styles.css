@@ -6,8 +6,10 @@ li {font-family: 'Pontano Sans', sans-serif;
    background-color: #95C64A;
    text-align: center;}
 
+p {font-family: 'Pontano Sans', sans-serif;}
+
 nav {font-size: 20pt;
-    margin-top: -210px;
+    margin-top: -127px;
     margin-left: 400px;
     position: absolute;}
 
