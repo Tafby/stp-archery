@@ -33,3 +33,10 @@ ul {text-align: center;
 footer {text-align:center;
     font-family: 'Pontano Sans', sans-serif;}
 
+.offscreen {position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;}
+
